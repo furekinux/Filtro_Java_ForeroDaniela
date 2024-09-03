@@ -2,15 +2,25 @@ package Logica;
 
 public class Habilidad {
     
+    private int ninja;
     private String nombre;
     private String descripcion;
 
     public Habilidad() {
     }
 
-    public Habilidad(String nombre, String descripcion) {
+    public Habilidad(int ninja,String nombre, String descripcion) {
+        this.ninja = ninja;
         this.nombre = nombre;
         this.descripcion = descripcion;
+    }
+
+    public int getNinja() {
+        return ninja;
+    }
+
+    public void setNinja(int ninja) {
+        this.ninja = ninja;
     }
 
     public String getNombre() {

@@ -1,5 +1,8 @@
 package Persistencia;
 
-public enum NinjaToDatabase {
+public class NinjaToDatabase {
     
+    public NinjaToDatabase(){
+        
+    }
 }
